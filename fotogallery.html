@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foto Gallery — Campo Sportivo</title>
+  <meta name="description" content="Guarda le foto del campo sportivo: strutture, spogliatoi, area ristoro e molto altro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-futbol" aria-hidden="true"></i>
+        <span>Campo Sportivo</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="servizi.html" class="nav-link">Servizi</a>
+        <a href="fotogallery.html" class="nav-link active">Foto Gallery</a>
+        <a href="contatti.html" class="nav-link">Contatti</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Apri menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="page-hero">
+      <div class="container">
+        <h1>Foto Gallery</h1>
+        <p>Scopri il campo in ogni dettaglio</p>
+      </div>
+    </div>
+
+    <section class="section bg-white">
+      <div class="container">
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://placehold.co/800x600/15803d/ffffff?text=Campo+principale" alt="Vista del campo principale" loading="lazy" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://placehold.co/800x600/16a34a/ffffff?text=Erba+sintetica" alt="Dettaglio erba sintetica" loading="lazy" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://placehold.co/800x600/14532d/ffffff?text=Illuminazione" alt="Illuminazione notturna" loading="lazy" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://placehold.co/800x600/166534/ffffff?text=Spogliatoi" alt="Gli spogliatoi" loading="lazy" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://placehold.co/800x600/15803d/ffffff?text=Tribuna" alt="Area tribuna spettatori" loading="lazy" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://placehold.co/800x600/16a34a/ffffff?text=Area+ristoro" alt="Area bar e ristoro" loading="lazy" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://placehold.co/800x600/14532d/ffffff?text=Parcheggio" alt="Il parcheggio" loading="lazy" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://placehold.co/800x600/166534/ffffff?text=Ingresso" alt="L'ingresso del campo" loading="lazy" />
+          </div>
+          <div class="gallery-item">
+            <img src="https://placehold.co/800x600/15803d/ffffff?text=Panoramica" alt="Vista panoramica del campo" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Visualizzatore immagini">
+    <button class="lightbox-close" aria-label="Chiudi"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-prev" aria-label="Immagine precedente"><i class="fa-solid fa-chevron-left"></i></button>
+    <img class="lightbox-img" src="" alt="" />
+    <button class="lightbox-next" aria-label="Immagine successiva"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo logo-footer">
+            <i class="fa-solid fa-futbol" aria-hidden="true"></i>
+            <span>Campo Sportivo</span>
+          </div>
+          <p>Il campo nel cuore della città, aperto tutto l'anno.</p>
+        </div>
+        <div class="footer-links-col">
+          <strong>Pagine</strong>
+          <a href="index.html">Home</a>
+          <a href="servizi.html">Servizi</a>
+          <a href="fotogallery.html">Foto Gallery</a>
+          <a href="contatti.html">Contatti</a>
+        </div>
+        <div class="footer-social-col">
+          <strong>Seguici</strong>
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">© 2025 Campo Sportivo. Tutti i diritti riservati.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

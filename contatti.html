@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contatti — Campo Sportivo</title>
+  <meta name="description" content="Contatta il campo sportivo per informazioni e prenotazioni. Telefono, email, WhatsApp e modulo di contatto." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-futbol" aria-hidden="true"></i>
+        <span>Campo Sportivo</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="servizi.html" class="nav-link">Servizi</a>
+        <a href="fotogallery.html" class="nav-link">Foto Gallery</a>
+        <a href="contatti.html" class="nav-link active">Contatti</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Apri menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="page-hero">
+      <div class="container">
+        <h1>Contatti</h1>
+        <p>Siamo a tua disposizione per informazioni e prenotazioni</p>
+      </div>
+    </div>
+
+    <section class="section bg-white">
+      <div class="container">
+        <div class="contatti-grid">
+
+          <!-- Form -->
+          <div>
+            <span class="section-label">Scrivici</span>
+            <h2 style="margin-bottom: 1.25rem;">Inviaci un messaggio</h2>
+            <form action="mailto:info@campodiesempio.it" method="POST" enctype="text/plain">
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="email@esempio.it" required />
+              </div>
+              <div class="form-group">
+                <label for="messaggio">Messaggio</label>
+                <textarea id="messaggio" name="messaggio" placeholder="Scrivi il tuo messaggio..." required></textarea>
+              </div>
+              <button type="submit" class="btn-form">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true" style="margin-right: 8px;"></i>
+                Invia messaggio
+              </button>
+            </form>
+          </div>
+
+          <!-- Recapiti -->
+          <div class="recapiti">
+            <span class="section-label">Recapiti</span>
+            <h2>Contattaci direttamente</h2>
+            <div class="info-item" style="margin-top: 1.25rem;">
+              <i class="fa-solid fa-phone" aria-hidden="true" style="color: var(--green-primary); font-size: 18px; margin-top: 3px; width: 20px; text-align: center;"></i>
+              <div>
+                <strong>Telefono</strong>
+                <a href="tel:+390212345678"><p>+39 02 1234 5678</p></a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-envelope" aria-hidden="true" style="color: var(--green-primary); font-size: 18px; margin-top: 3px; width: 20px; text-align: center;"></i>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:info@campodiesempio.it"><p>info@campodiesempio.it</p></a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true" style="color: var(--green-primary); font-size: 20px; margin-top: 2px; width: 20px; text-align: center;"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/393331234567" target="_blank" rel="noopener"><p>+39 333 123 4567</p></a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-regular fa-clock" aria-hidden="true" style="color: var(--green-primary); font-size: 18px; margin-top: 3px; width: 20px; text-align: center;"></i>
+              <div>
+                <strong>Orari</strong>
+                <p>Lun–Ven 9:00–23:00</p>
+                <p>Sab–Dom 8:00–24:00</p>
+              </div>
+            </div>
+            <div class="social-row">
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+              <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DOVE SIAMO -->
+    <section class="section bg-light" id="dove-siamo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Posizione</span>
+          <h2>Dove siamo</h2>
+          <p class="section-sub">Facile da raggiungere, con parcheggio gratuito.</p>
+        </div>
+        <div class="dove-siamo-box">
+          <div class="dove-grid">
+            <div class="dove-info">
+              <div class="info-item">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <div>
+                  <strong>Indirizzo</strong>
+                  <p>Via dello Sport 12, 20100 Milano (MI)</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                <div>
+                  <strong>Orari</strong>
+                  <p>Lun–Ven 9:00–23:00 · Sab–Dom 8:00–24:00</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-square-parking" aria-hidden="true"></i>
+                <div>
+                  <strong>Parcheggio</strong>
+                  <p>Gratuito sul posto, 30 posti disponibili</p>
+                </div>
+              </div>
+              <a href="https://maps.google.com/?q=Milano" target="_blank" rel="noopener" class="maps-link">
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                Apri in Google Maps
+              </a>
+            </div>
+            <div class="dove-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89736.64744440284!2d9.129063!3d45.464664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1493f1275e7%3A0x3cffcd13c6740b8d!2sMilan%2C%20Metropolitan%20City%20of%20Milan!5e0!3m2!1sen!2sit!4v1699999999999"
+                width="100%"
+                height="320"
+                style="border:0; border-radius: 12px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Mappa del campo sportivo">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo logo-footer">
+            <i class="fa-solid fa-futbol" aria-hidden="true"></i>
+            <span>Campo Sportivo</span>
+          </div>
+          <p>Il campo nel cuore della città, aperto tutto l'anno.</p>
+        </div>
+        <div class="footer-links-col">
+          <strong>Pagine</strong>
+          <a href="index.html">Home</a>
+          <a href="servizi.html">Servizi</a>
+          <a href="fotogallery.html">Foto Gallery</a>
+          <a href="contatti.html">Contatti</a>
+        </div>
+        <div class="footer-social-col">
+          <strong>Seguici</strong>
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">© 2025 Campo Sportivo. Tutti i diritti riservati.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
