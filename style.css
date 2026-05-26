@@ -157,9 +157,13 @@ p  { font-size: 15px; color: var(--gray-600); }
   font-weight: 700;
   white-space: nowrap;
 }
-.logo img.site-logo { width: 44px; height: auto; border-radius: 10px; object-fit: contain; display: block; }
+.logo img.site-logo { width: 38px; max-height: 42px; height: auto; border-radius: 10px; object-fit: contain; display: block; }
 .logo i { color: var(--lime); font-size: 20px; }
 .logo-footer { margin-bottom: .75rem; }
+
+@media (max-width: 640px) {
+  .logo img.site-logo { width: 32px; max-height: 34px; }
+}
 
 .nav { display: flex; align-items: center; gap: 4px; }
 
