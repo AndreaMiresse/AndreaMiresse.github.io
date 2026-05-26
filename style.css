@@ -19,11 +19,11 @@ a { text-decoration: none; }
    CSS VARIABLES
    ============================================= */
 :root {
-  --green-dark:    #14532d;
-  --green-primary: #15803d;
-  --green-mid:     #16a34a;
-  --green-light:   #dcfce7;
-  --lime:          #a3e635;
+  --green-dark:    #0f2c56;
+  --green-primary: #1d5bb3;
+  --green-mid:     #4c79d1;
+  --green-light:   #d8e6fb;
+  --lime:          #8cb3f0;
   --white:         #ffffff;
   --gray-50:       #f8fafc;
   --gray-100:      #f1f5f9;
@@ -157,6 +157,7 @@ p  { font-size: 15px; color: var(--gray-600); }
   font-weight: 700;
   white-space: nowrap;
 }
+.logo img.site-logo { width: 44px; height: auto; border-radius: 10px; object-fit: contain; display: block; }
 .logo i { color: var(--lime); font-size: 20px; }
 .logo-footer { margin-bottom: .75rem; }
 
@@ -479,7 +480,7 @@ p  { font-size: 15px; color: var(--gray-600); }
   justify-content: center;
   font-size: 24px;
   color: white;
-  background: rgba(20,83,45,.5);
+  background: rgba(29,91,179,.5);
   opacity: 0;
   transition: var(--transition);
 }
