@@ -3,14 +3,23 @@
    ============================================= */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; font-size: 16px; }
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  min-height: 100%;
+}
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: 'Inter', sans-serif;
   color: #0f172a;
   background: #f8fafc;
   line-height: 1.6;
 }
+
+main { flex: 1; }
 
 img { max-width: 100%; height: auto; display: block; }
 a { text-decoration: none; }
