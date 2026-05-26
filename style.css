@@ -459,6 +459,25 @@ p  { font-size: 15px; color: var(--gray-600); }
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+.video-block {
+  margin-bottom: 2rem;
+}
+.video-block .section-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--green-primary);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: .75rem;
+}
+.video-block video {
+  width: 100%;
+  max-height: 480px;
+  border-radius: var(--radius-lg);
+  background: var(--gray-100);
+  box-shadow: var(--shadow-md);
+}
 .gallery-item {
   aspect-ratio: 4/3;
   border-radius: var(--radius-md);
