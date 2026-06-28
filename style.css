@@ -441,37 +441,36 @@ p  { font-size: 15px; color: var(--gray-600); }
 .page-hero p  { color: rgba(255,255,255,.72); font-size: 15px; }
 
 /* =============================================
-   SERVIZI — tabella tariffe
+   SERVIZI — prenotazioni
    ============================================= */
-.tariffe-table {
-  width: 100%;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 0.5px solid var(--gray-200);
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem;
   background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
 }
-.tariffe-table .t-head {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background: var(--green-primary);
-  color: var(--white);
-  font-size: 12px;
-  font-weight: 600;
-  padding: 11px 16px;
+.feature-item p {
+  margin: 0;
+  color: var(--gray-600);
 }
-.tariffe-table .t-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 12px 16px;
-  font-size: 14px;
-  border-bottom: 0.5px solid var(--gray-100);
-  align-items: center;
+.feature-icon {
+  font-size: 1.35rem;
+  line-height: 1;
 }
-.tariffe-table .t-row:last-child { border-bottom: none; }
-.tariffe-table .t-row:nth-child(even) { background: var(--gray-50); }
-.t-center { text-align: center; color: var(--gray-600); }
-.t-right  { text-align: right; font-weight: 600; color: var(--green-primary); }
-.tariffe-note { font-size: 12px; color: var(--gray-400); margin-top: .75rem; }
+
+@media (max-width: 768px) {
+  .feature-list {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* =============================================
    GALLERY
@@ -596,56 +595,32 @@ p  { font-size: 15px; color: var(--gray-600); }
   .contatti-grid { grid-template-columns: 1fr; }
 }
 
-/* Form */
-.form-group { margin-bottom: 1rem; }
-.form-group label {
-  display: block;
-  font-size: 12px;
-  font-weight: 600;
+/* Recapiti */
+.recapiti h2 { margin-bottom: 1.25rem; }
+.recapiti .info-item { margin-bottom: 1rem; }
+.recapiti .info-item a { color: var(--text); font-size: 14px; }
+
+/* PRENOTAZIONI */
+.booking-copy {
+  display: grid;
+  gap: 1rem;
+  max-width: 700px;
+  margin-bottom: 1.5rem;
+}
+.booking-copy p,
+.booking-contacts p {
+  margin: 0;
   color: var(--gray-600);
-  text-transform: uppercase;
-  letter-spacing: .5px;
-  margin-bottom: 6px;
+  line-height: 1.7;
 }
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  background: var(--white);
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius-sm);
-  padding: 11px 14px;
-  font-size: 14px;
-  font-family: 'Inter', sans-serif;
-  color: var(--text);
-  transition: var(--transition);
+.booking-contacts {
+  display: grid;
+  gap: .75rem;
 }
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--green-primary);
-  box-shadow: 0 0 0 3px rgba(32,47,86,.12);
-}
-.form-group textarea { height: 120px; resize: vertical; }
-.btn-form {
-  width: 100%;
-  background: var(--green-primary);
-  color: var(--white);
-  border: none;
-  border-radius: var(--radius-pill);
-  padding: 13px;
-  font-size: 15px;
+.booking-contacts p {
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
-  cursor: pointer;
-  transition: var(--transition);
-}
-.btn-form:hover {
-  background: var(--green-dark);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
 }
 
-/* Recapiti */
 .recapiti h2 { margin-bottom: 1.25rem; }
 .recapiti .info-item { margin-bottom: 1rem; }
 .recapiti .info-item a { color: var(--text); font-size: 14px; }
