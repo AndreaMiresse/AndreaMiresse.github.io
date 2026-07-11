@@ -6,13 +6,13 @@ Ottimizzazioni consigliate
 
 Idee per arricchire il sito
 
-* Social Network: aggiungere le icone con i link ai profili ufficiali Instagram e Facebook.
+* Social Network: aggiungere le icone con i link ai profili ufficiali Instagram e Facebook. FATTO
 * Google Maps: incorporare direttamente la mappa nella pagina, così da renderla immediatamente visibile senza dover aprire un link esterno.
 * Recensioni Google: inserire una sezione con 3-4 recensioni a cinque stelle, per aumentare la fiducia di chi visita il sito per la prima volta.
 * WhatsApp: rendere ancora più evidente il pulsante WhatsApp e aggiungere un grande pulsante “Prenota su WhatsApp” nella sezione “Prenotazioni e disponibilità”, così da facilitare il contatto immediato.
 * Slogan nel footer: valutare la sostituzione della frase attuale con uno slogan più distintivo, ad esempio:
 
-“Dove lo sport incontra la passione.”
+“Dove lo sport incontra la passione.” FATTO
 
 Secondo me è una frase elegante, memorabile e perfettamente in linea con l’immagine del San Luca Stadium.
 

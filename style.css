@@ -250,11 +250,11 @@ p  { font-size: 15px; color: var(--gray-600); }
   inset: 0;
   background-image:
     linear-gradient(rgba(32,47,86,.45), rgba(32,47,86,.45)),
-    url("img/WhatsApp Image 2026-07-03 at 15.07.45 (2).jpeg");
+    url("img/campo-calcio-san-luca-genova (9).jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: blur(6px);
+  filter: blur(8px);
   transform: scale(1.03);
   z-index: 0;
 }
