@@ -1,0 +1,24 @@
+Ottimizzazioni consigliate
+
+* Nomi dei file: rinominare immagini e video prima del caricamento, evitando nomi generici come WhatsApp Image… e utilizzando descrizioni chiare (ad esempio campo-calcio-san-luca-stadium-genova.jpg). Questo aiuta anche il posizionamento su Google (SEO).
+* Copyright: aggiornare l’anno nel footer da © 2025 a © 2026.
+* Copertina del video: sostituire l’immagine di anteprima del video (attualmente il logo) con una fotografia del campo o di un’azione di gioco, così da renderlo più coinvolgente e accattivante.
+
+Idee per arricchire il sito
+
+* Social Network: aggiungere le icone con i link ai profili ufficiali Instagram e Facebook.
+* Google Maps: incorporare direttamente la mappa nella pagina, così da renderla immediatamente visibile senza dover aprire un link esterno.
+* Recensioni Google: inserire una sezione con 3-4 recensioni a cinque stelle, per aumentare la fiducia di chi visita il sito per la prima volta.
+* WhatsApp: rendere ancora più evidente il pulsante WhatsApp e aggiungere un grande pulsante “Prenota su WhatsApp” nella sezione “Prenotazioni e disponibilità”, così da facilitare il contatto immediato.
+* Slogan nel footer: valutare la sostituzione della frase attuale con uno slogan più distintivo, ad esempio:
+
+“Dove lo sport incontra la passione.”
+
+Secondo me è una frase elegante, memorabile e perfettamente in linea con l’immagine del San Luca Stadium.
+
+⸻
+
+Per il resto il sito mi piace davvero molto. Si tratta soltanto di piccoli affinamenti che possono renderlo ancora più professionale ed efficace. Complimenti davvero per l’ottimo lavoro!
+
+
+Per la questione SEO delle immagini toccherà usare gli alt text per questione di indicizzazione
