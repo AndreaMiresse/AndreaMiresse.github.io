@@ -256,6 +256,12 @@ p  { font-size: 15px; color: var(--gray-600); }
   background-image:
     linear-gradient(rgba(32,47,86,.45), rgba(32,47,86,.45)),
     url("img/campo-san-luca-genova (9).jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  transform: scale(1.03);
+  z-index: 0;
 }
 
 .hero::after {
