@@ -109,6 +109,11 @@ p  { font-size: 15px; color: var(--gray-600); }
   cursor: pointer;
   border: 2px solid transparent;
 }
+.btn i {
+  display: inline-flex;
+  align-items: center;
+  margin-right: .5rem;
+}
 
 .btn-primary {
   background: var(--green-primary);
@@ -250,13 +255,7 @@ p  { font-size: 15px; color: var(--gray-600); }
   inset: 0;
   background-image:
     linear-gradient(rgba(32,47,86,.45), rgba(32,47,86,.45)),
-    url("img/campo-calcio-san-luca-genova (9).jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: blur(8px);
-  transform: scale(1.03);
-  z-index: 0;
+    url("img/campo-san-luca-genova (9).jpeg");
 }
 
 .hero::after {
