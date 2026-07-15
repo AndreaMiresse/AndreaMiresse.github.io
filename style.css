@@ -127,6 +127,18 @@ p  { font-size: 15px; color: var(--gray-600); }
   box-shadow: var(--shadow-md);
 }
 
+.btn-whatsapp {
+  background: #25D366;
+  color: var(--white);
+  border-color: #25D366;
+}
+.btn-whatsapp:hover {
+  background: #1ebc57;
+  border-color: #1ebc57;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
 .btn-outline {
   background: transparent;
   color: var(--white);
